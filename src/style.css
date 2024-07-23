@@ -1,0 +1,29 @@
+html {
+    font-size: 14px;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.intro_page {
+    height: 100vh;
+}
+
+.side_by_side {
+    width: 50%;
+    height: 100%;
+    float: left;
+    align-content: center;
+}
+
+.pfp {
+    width: 40vw;
+    float: right;
+    padding-right: 5vw;
+}
+
+.titles {
+    font-size: 16px;
+}
