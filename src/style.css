@@ -1,14 +1,25 @@
+:root {
+    --primary-background: white;
+    --primary-text: black;
+    --secondary-background: black;
+    --secondary-text: white;
+}
+
 html {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
     height: 100%;
 }
 
 body {
     margin: 0;
+    background-color: var(--primary-background);
+    color: var(--primary-text);
 }
 
-.intro_page {
+.content_page {
     height: 100vh;
+    justify-self: center;
 }
 
 .side_by_side {
@@ -18,12 +29,35 @@ body {
     align-content: center;
 }
 
-.pfp {
+.side_by_side h1 {
+    font-size: xx-large;
+}
+
+.side_by_side h2 {
+    font-weight: normal;
+}
+
+.side_by_side img {
     width: 40vw;
     float: right;
     padding-right: 5vw;
+    padding-bottom: 5vw;
 }
 
-.titles {
-    font-size: 16px;
+.navigation_bar {
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    bottom: 0;
+    background-color: var(--secondary-background);
+    text-align: center;
+    align-content: center;
+}
+
+.navigation_bar i {
+    color: var(--secondary-text);
+    font-size: x-large;
+    font-style: normal;
+    margin: 20px;
+    text-decoration: none;
 }
