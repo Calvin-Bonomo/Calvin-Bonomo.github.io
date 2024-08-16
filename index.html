@@ -6,32 +6,51 @@
         <title>Calvin Bonomo</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="src/style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <script src="src/main.js" async defer></script>
         <main>
-        <!-- Intro -->
-            <div class="content_page">
+            <!-- Intro -->
+            <div class="content_page" id="intro">
             <!-- Picture -->
-                <span class="side_by_side">
-                    <img src="assets/pfp.jpg">
-                </span>
+                <div class="side_by_side">
+                    <img src="assets/pfp.jpg" class="side_by_side">
+                </div>
             <!-- Bio -->
-                <span class="side_by_side">
+                <div class="side_by_side">
                     <h1>Hi, I'm Calvin Bonomo</h1>
                     <h2>Software Engineer and Game Developer</h2>
-                </span>
+                </div>
             </div>
-            <!-- Nav Bar -->
-            <div class="navigation_bar">
-                <li>
-                    <a href="#"><i>Home</i></a>
-                    <a href="/about_me.html"><i>About me</i></a>
-                    <a href="/projects.html"><i>Projects</i></a>
-                    <a href="/contact_me.html"><i>Contact</i></a>
-                </li>
+            <!-- About Me -->
+            <div class="content_page" id="about_me">
+                <h1 class="about_me">About Me</h1>
+                <p class="about_me_text">I started programming the Summer after my freshman year of highschool. After watching a video about Minecraft’s world generation, I decided it was time to make my own procedurally generated masterpiece. I ended up writing a two-thousand line buggy and broken mess, and while my hopes of making the next indie game sensation had been dashed, I was hooked. I started making games with Java’s AWT library, learning as much as I could as fast as I could. However, I soon became discontent with AWT’s lack of customization, so in my Junior year, I wrote my own 2D renderer in Java. It wasn’t particularly advanced, but it was enough to make a quick falling sand type game. This is the project that got me hooked on graphics programming. I started writing pixel art shaders in Unity before diving head first into C++ and OpenGL. Since then, I published a game for a game jam and have continued my work with rendering APIs.</p>
             </div>
+            <!-- Project Cards -->
+            <div class="content_page" id="projects">
+                <div class="project_card">
+                    <img src="" alt="">
+                    <h1></h1>
+                    <p></p>
+                </div>
+                <div class="project_card">
+                    <img src="" alt="">
+                    <h1></h1>
+                    <p></p>
+                </div>
+                <div class="project_card">
+                    <img src="" alt="">
+                    <h1></h1>
+                    <p></p>
+                </div>
+            </div>
+            <footer class="navigation_bar">
+                <a href="https://www.linkedin.com/in/calvin-bonomo/"><svg xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="white"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" /><path d="M8 11l0 5" /><path d="M8 8l0 .01" /><path d="M12 16l0 -5" /><path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg></a>
+                <a href="https://github.com/Calvin-Bonomo"><svg xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="white"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg></a>
+                <a href="https://calvinbonomo.itch.io/"><svg xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="white"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-itch"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 7v1c0 1.087 1.078 2 2 2c1.107 0 2 -.91 2 -2c0 1.09 .893 2 2 2s2 -.91 2 -2c0 1.09 .893 2 2 2s2 -.91 2 -2c0 1.09 .893 2 2 2s2 -.91 2 -2c0 1.09 .893 2 2 2c.922 0 2 -.913 2 -2v-1c-.009 -.275 -.538 -.964 -1.588 -2.068a3 3 0 0 0 -2.174 -.932h-12.476a3 3 0 0 0 -2.174 .932c-1.05 1.104 -1.58 1.793 -1.588 2.068z" /><path d="M4 10c-.117 6.28 .154 9.765 .814 10.456c1.534 .367 4.355 .535 7.186 .536c2.83 -.001 5.652 -.169 7.186 -.536c.99 -1.037 .898 -9.559 .814 -10.456" /><path d="M10 16l2 -2l2 2" /><path d="M12 14v4" /></svg></a>   
+                <p>cal.bonomo@gmail.com</p>
+            </footer>
         </main>
     </body>
 </html>

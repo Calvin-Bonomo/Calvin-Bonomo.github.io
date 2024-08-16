@@ -18,7 +18,9 @@ body {
 }
 
 .content_page {
-    height: 100vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: 90vh;
     justify-self: center;
 }
 
@@ -38,10 +40,12 @@ body {
 }
 
 .side_by_side img {
-    width: 40vw;
+    object-fit: contain;
+    width: 60%;
     float: right;
-    padding-right: 5vw;
-    padding-bottom: 5vw;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    align-content: center;
 }
 
 .navigation_bar {
@@ -52,12 +56,31 @@ body {
     background-color: var(--secondary-background);
     text-align: center;
     align-content: center;
+    color: var(--secondary-text);
 }
 
-.navigation_bar i {
-    color: var(--secondary-text);
-    font-size: x-large;
-    font-style: normal;
-    margin: 20px;
-    text-decoration: none;
+.navigation_bar p {
+    margin-top: 0;
+}
+
+.nav_icon:hover {
+    cursor: pointer;
+}
+
+.project_card {
+    display: flex;
+    box-shadow: 2px 2px 5px gray;
+    float: left;
+    outline: 2px 2px 2px 2px black;
+}
+
+.about_me {
+    text-align: center;
+}
+
+.about_me_text {
+    text-align: center;
+    font-size: large;
+    padding-left: 20%;
+    padding-right: 20%;
 }
