@@ -1,7 +1,7 @@
 export default function NavBar() {
     return (
-        <header className={`absolute top w-full shadow-sm flex`}>
-                <h1>Calvin Bonomo</h1>
+        <header className={`top w-full shadow-sm flex p-2`}>
+                <h1 className={`text-2xl font-bold`}>Home</h1>
         </header>
     );
 }

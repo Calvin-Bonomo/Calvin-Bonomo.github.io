@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Ubuntu } from "next/font/google";
 import "./globals.css";
 import NavBar from "../components/NavBar";
 
@@ -7,6 +8,10 @@ export const metadata: Metadata = {
   description: "Calvin Bonomo's personal website",
 };
 
+const ubuntu = Ubuntu({
+    weight: ['400', '700']
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -14,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`m-0`}>
+      <body className={`${ubuntu.className} m-0`}>
         <NavBar/>
         {children}
       </body>

@@ -1,5 +1,33 @@
+import Image from 'next/image'
+import type { ProjectInfo } from '../components/ProjectCard'
+import ProjectCard from '../components/ProjectCard'
+
+
+const projects: ProjectInfo[] = [
+    {id: 0, info: { name: "Project1", image_path: "/Profile.jpg", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.", link:"#", image_width: 599, image_height: 599}}
+];
+
 export default function Home() {
   return (
-      <div></div>
-  );
-}
+      <div>
+        <div className={`grid grid-cols-2 gap-4 h-fit items-center mx-4 md:mx-0 lg:h-screen`}> {/*Intro*/}
+            <div className={`flex justify-end`}>
+                <div className={`md:w-2/3 lg:w-1/2`}>
+                    <h1 className={`text-4xl lg:text-7xl font-bold`}>Hi, I'm Calvin</h1>
+                    <p className={`text-justify text-sm md:text-lg`}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <Image className={`sm:m-1 md:w-2/3 lg:w-1/3 rounded-2xl`}
+            src="/Profile.jpg"
+            width={599}
+            height={599}
+            alt="Picture of Calvin Bonomo"
+            />
+        </div>
+        <div className="grid grid-cols-3 gaps-10 place-items-center px-10 my-10 inset-shadow-[0px_8px_5px_rgba(0,0,0,0.1),0px_-8px_5px_rgba(0,0,0,0.1)] max-h-2/3"> {/*Projects*/}
+            {projects.map((project) => (
+                <ProjectCard key={project.id} id={project.id} info={project.info}/>
+            ))}
+        </div>
+    </div>
+);}
