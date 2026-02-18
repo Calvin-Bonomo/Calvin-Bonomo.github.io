@@ -14,7 +14,7 @@ export default function Home() {
             <div className={`flex justify-end`}>
                 <div className={`md:w-2/3 lg:w-1/2`}>
                     <h1 className={`text-4xl lg:text-7xl font-bold`}>Hi, I'm Calvin</h1>
-                    <p className={`text-justify text-sm md:text-lg`}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p className={`text-justify text-sm md:text-lg`}>I'm a fourth year undergraduate student at the University of Colorado Boulder, pursuing a Bachelor of Science in Computer Science at the University of Colorado Boulder. I previously interned at Apple on the visionOS UI and Frameworks team where I did prototyping and exploratory work as well as learning about API development.</p>
                 </div>
             </div>
             <Image className={`sm:m-1 md:w-2/3 lg:w-1/3 rounded-2xl`}
