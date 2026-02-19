@@ -6,9 +6,9 @@ export interface ProjectInfo {
     id: number;
     info: {
         name: string;
-        image_path: string;
         description: string;
         link: string;
+        image_path: string;
         image_width: number;
         image_height: number;
     }
