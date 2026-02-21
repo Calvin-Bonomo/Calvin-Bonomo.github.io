@@ -6,9 +6,9 @@
         "name": "Blossom",
         "description": "Blossom is a Vulkan-based renderer.",
         "link": "https://github.com/Calvin-Bonomo/blossom",
-        "image_path":"blossom.jpg",
+        "image_path":"/",
         "image_width": 0,
-        "image_height": 0
+        "image_height": 0 
       }
     },
     {
@@ -17,9 +17,9 @@
         "name": "Fireside",
         "description": "Fireside is a data structures and algorithms library written entirely in C.",
         "link": "https://github.com/Calvin-Bonomo/Fireside",
-        "image_path": "fireside.jpg",
-        "image_width": 0,
-        "image_height": 0
+        "image_path": "/fireside.png",
+        "image_width": 290,
+        "image_height": 100
       }
     },
     {
@@ -28,7 +28,7 @@
         "name": "Falling Sand",
         "description": "",
         "link": "https://github.com/Calvin-Bonomo/FallingSand",
-        "image_path": "",
+        "image_path": "/",
         "image_width": 0,
         "image_height": 0
       }
