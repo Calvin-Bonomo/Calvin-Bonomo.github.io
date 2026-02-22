@@ -4,7 +4,7 @@
       "id": 0,
       "info": {
         "name": "Blossom",
-        "description": "Blossom is a Vulkan-based renderer.",
+        "description": "Blossom is a Vulkan-based renderer written in C++.",
         "link": "https://github.com/Calvin-Bonomo/blossom",
         "image_path":"/",
         "image_width": 0,
@@ -26,7 +26,7 @@
       "id": 2,
       "info": {
         "name": "Falling Sand",
-        "description": "",
+        "description": "Falling sand is an adapted version of my final project for my Advanced Computer Graphics course. It is a GPU-driven falling sand simulation written in C++.",
         "link": "https://github.com/Calvin-Bonomo/FallingSand",
         "image_path": "/",
         "image_width": 0,

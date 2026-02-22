@@ -15,11 +15,11 @@ export interface ProjectInfo {
 };
 
 const ProjectCard: React.FC<ProjectInfo> = ({ info }: ProjectInfo) => { return (
-    <div className="border-solid border-2 rounded-xl text-center my-10 p-5 h-full w-full grid transition duration-500 hover:shadow-2xl">
+    <div className="border-solid border-2 rounded-xl text-center place-items-center my-10 p-5 h-full w-full grid transition duration-500 hover:shadow-2xl">
         <h1 className="font-bold text-xl">{info.name}</h1>
-        <Image className="flex-grow"
+        <Image className="flex-grow rounded-sm"
             src={info.image_path}
-            alt="Placeholder"
+            alt=""
             width={info.image_width}
             height={info.image_height}
         />
