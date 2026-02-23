@@ -6,9 +6,7 @@
         "name": "Blossom",
         "description": "Blossom is a Vulkan-based renderer written in C++.",
         "link": "https://github.com/Calvin-Bonomo/blossom",
-        "image_path":"/",
-        "image_width": 0,
-        "image_height": 0 
+        "image_path":"/"
       }
     },
     {
@@ -17,9 +15,7 @@
         "name": "Fireside",
         "description": "Fireside is a data structures and algorithms library written entirely in C.",
         "link": "https://github.com/Calvin-Bonomo/Fireside",
-        "image_path": "/fireside.png",
-        "image_width": 290,
-        "image_height": 100
+        "image_path": "/fireside.png"
       }
     },
     {
@@ -28,9 +24,7 @@
         "name": "Falling Sand",
         "description": "Falling sand is an adapted version of my final project for my Advanced Computer Graphics course. It is a GPU-driven falling sand simulation written in C++.",
         "link": "https://github.com/Calvin-Bonomo/FallingSand",
-        "image_path": "/",
-        "image_width": 0,
-        "image_height": 0
+        "image_path": "/"
       }
     }
   ]
