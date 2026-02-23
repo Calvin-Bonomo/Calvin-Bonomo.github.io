@@ -8,10 +8,10 @@ const projects: ProjectInfo[] = projectData.projects as ProjectInfo[]
 export default function Home() {
   return (
       <div>
-        <div className="px-7 py-7 mb-10 grid gap-x-5 md:grid-cols-2 md:py-50">
-            <h1 className="font-bold md:self-end text-4xl text-center pb-4 md:ml-100 md:text-6xl md:pb-0 md:text-start">Hi, I'm Calvin!</h1>
-            <div className="flex justify-start text-center md:row-span-2 md:w-full">
-            <Image className="rounded-xl md:w-3xs"
+        <div className="px-7 py-7 mb-10 grid gap-x-5 justify-center md:grid-cols-2 md:py-50">
+            <h1 className="font-bold text-4xl content-center text-center pb-4 md:ml-100 md:text-5xl md:pb-0 md:text-start md:content-start md:self-end">Hi, I'm Calvin!</h1>
+            <div className="flex justify-center text-center content-center relative items-center md:justify-start md:row-span-2 md:w-full">
+            <Image className="rounded-xl h-auto w-auto"
                 src="/Profile.jpg"
                 width={599}
                 height={599}
