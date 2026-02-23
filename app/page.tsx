@@ -11,12 +11,7 @@ export default function Home() {
         <div className="px-7 py-7 mb-10 grid gap-x-5 justify-center md:grid-cols-2 md:py-50">
             <h1 className="font-bold text-4xl content-center text-center pb-4 md:ml-100 md:text-5xl md:pb-0 md:text-start md:content-start md:self-end">Hi, I'm Calvin!</h1>
             <div className="flex justify-center text-center content-center relative items-center md:justify-start md:row-span-2 md:w-full">
-            <Image className="rounded-xl h-auto w-auto"
-                src="/Profile.jpg"
-                width={599}
-                height={599}
-                alt="Headshot of Calvin Bonomo"
-            />
+                <img src="/Profile.jpg" alt="Headshot of Calvin Bonomo" className="rounded-xl h-xs w-xs"/>
             </div>
             <p className="pt-4 md:pt-0 md:ml-100">I'm a fourth year undergraduate student at the University of Colorado Boulder, pursuing a Bachelor of Science in Computer Science at the University of Colorado Boulder. I previously interned at Apple on the visionOS UI and Frameworks team where I did prototyping and exploratory work as well as learning about API development.</p>
         </div>
