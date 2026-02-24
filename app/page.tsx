@@ -1,7 +1,7 @@
-import Image from 'next/image'
 import type { ProjectInfo } from '../components/ProjectCard'
 import ProjectCard from '../components/ProjectCard'
 import projectData from '../public/Projects.json'
+import { FaGithub, FaLinkedin } from "react-icons/fa"
 
 const projects: ProjectInfo[] = projectData.projects as ProjectInfo[]
 
@@ -10,10 +10,14 @@ export default function Home() {
       <div>
         <div className="px-7 py-7 mb-10 grid gap-x-5 justify-center md:grid-cols-2 md:py-50">
             <h1 className="font-bold text-4xl content-center text-center pb-4 md:ml-[15vw] lg:ml-[25vw] lg:text-5xl md:pb-0 md:text-start md:content-start md:self-end">Hi, I'm Calvin!</h1>
-            <div className="flex justify-center text-center content-center relative items-center md:justify-start md:row-span-2 md:w-full">
+            <div className="flex justify-center text-center content-center relative items-center md:justify-start md:row-span-3 md:w-full">
                 <img src="/Profile.jpg" alt="Headshot of Calvin Bonomo" className="rounded-xl h-xs w-xs"/>
             </div>
             <p className="pt-4 md:pt-0 md:ml-[15vw] lg:ml-[25vw]">I'm a fourth year undergraduate student at the University of Colorado Boulder, pursuing a Bachelor of Science in Computer Science at the University of Colorado Boulder. I previously interned at Apple on the visionOS UI and Frameworks team where I did prototyping and exploratory work as well as learning about API development.</p>
+            <span className="flex justify-center items-center md:ml-[15vw] lg:ml-[25vw]">
+                <a href="https://www.linkedin.com/in/calvin-bonomo" target="_blank" rel="noopener noreferrer" className="mx-[1vw]"><FaLinkedin className="text-4xl"/></a>
+                <a href="https://www.github.com/Calvin-Bonomo" target="_blank" rel="noopener noreferrer" className="mx-[1vw]"><FaGithub className="text-4xl"/></a>
+            </span>
         </div>
         <span>
             <h1 className="text-center font-bold text-5xl mb-5">Projects</h1>
